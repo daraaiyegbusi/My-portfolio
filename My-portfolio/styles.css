@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    display: flex;
+    height: 100vh;
+    color: #333;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 20%;
+    background: #fff;
+    border-right: 1px solid #eee;
+    padding: 40px 20px;
+  }
+  
+  .sidebar .logo {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    font-weight: bold;
+  }
+  
+  .sidebar nav ul {
+    list-style: none;
+  }
+  
+  .sidebar nav ul li {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .sidebar nav ul li a.active,
+  .sidebar nav ul li a:hover {
+    color: #f4c10f;
+  }
+  
+  /* Main content - Profile */
+  .profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    width: 80%;
+  }
+  
+  .photo-frame {
+    border: 4px solid black;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .photo-frame img {
+    width: 250px;
+    height: auto;
+    display: block;
+  }
+  
+  .intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .intro p {
+    max-width: 400px;
+    font-size: 1.1rem;
+  }
+  
+  /* Projects Page */
+  .projects {
+    padding: 50px;
+    width: 80%;
+  }
+  
+  .projects h1 {
+    margin-bottom: 40px;
+  }
+  
+  .project-card {
+    display: flex;
+    margin-bottom: 30px;
+    gap: 20px;
+  }
+  
+  .project-card img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .project-card .description h2 {
+    margin-bottom: 10px;
+  }
+  
